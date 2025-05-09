@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon"href="calculadora.ico">
+    <link rel="stylesheet"href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="Logo-UL.png" alt="logo"> 
+        </div>
+        <nav>
+            <a href="index.html" class="nav-link">HOME</a>
+            <a href="indexqp.html" class="nav-link">¿QUE ES?</a>
+            <a href="indextp.html" class="nav-link">TIPOS</a>
+            <a href="indexsl.html" class="nav-link">SOLICITUD</a>
+        </nav>  
+    </header>   
+
+    <div class="form-container">
+        <h1 style="text-align: center"><strong>SOLICITUD</strong></h1>
+        <fieldset>
+            <legend style="text-align: center">Formulario de Solicitud</legend>
+            <form>
+                <p style="text-align: center"><strong>Los campos marcados con * son de inserción obligatoria</strong></p>
+                <table>
+                    <tr>
+                        <td><br><span style="color: green"> * </span> Nombre de la empresa:</td>
+                        <td><input type="text" required></td>
+                    </tr>
+                    <tr>
+                        <td><br><span style="color: green"> * </span> Nombre:</td>
+                        <td><input type="text" required></td>
+                    </tr>
+                    <tr>
+                        <td><br><span style="color: green"> * </span> Primer Apellido:</td>
+                        <td><input type="text" required></td>
+                    </tr>
+                    <tr>
+                        <td><br>Segundo Apellido:</td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td><br>Tipo de documento:</td>
+                        <td>
+                            <select name="tipo">
+                                <option value="">Seleccione</option>
+                                <option value="cc">C.C</option>
+                                <option value="ce">NIT</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><br>Documento:</td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td><span style="color: green"> * </span> Correo electrónico:</td>
+                        <td><br><input type="email" required></td>
+                    </tr>
+                    <tr>
+                        <td><br>Teléfono:</td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td><br>Detalle de la solicitud:</td>
+                        <td><input type="text"></td>                       
+                    </tr>
+                    <tr>
+                        <td colspan="2" style="text-align: center;">
+                            <br>
+                            <button style="color: green"; type="submit">Enviar</button>
+                            <button style="color: red"; type="reset">Cancelar</button>
+                        </td>
+                    </tr> 
+                </table>
+                <br>
+                <p style="text-align: center"><strong>Los datos personales facilitados son susceptibles de cesión cuando ésta sea precisa para tramitar su contestación.</strong></p>
+            </form>
+        </fieldset>
+    </div>
+
+    <br>
+        <div class="imagen-debajo">
+            <img src="images.jpg" alt="foto1">
+        </div>
+    <br>
+</body>
+
+<footer class="pie-pagina">
+    <p style="text-align: center">Facultad de Ingeneria Industrial</p>
+    <p style="text-align: center">© 2025 Unilibre. Página desarrollada por Sergio Llinás, Sebastián Pacheco y Darwin Quintero. Todos los derechos reservados.</p>
+</footer>
+</html>
